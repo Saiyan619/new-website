@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto 0 auto; 
+}
+
+/*---------------------------------------
+------------HEADER-----------------------*/
+header{
+    
+    background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)),url();
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    
+}
+
+h2{
+    
+    margin-top:0px;
+    color: aliceblue;
+    font-size: 300%;
+   font-weight:100;
+
+}
+
+.main-text{
+    font-family: fantasy;
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-57%,50%);
+    
+}
+
+
+/*----------------------------
+------NAVIGATIONS----------*/
+
+.my-nav{
+    list-style: none;
+    float: right;
+    margin-top: 30px;
+    
+   
+    
+}
+
+.my-nav a{
+    text-decoration: none;
+}
+
+
+.my-nav li{
+    display: inline-block;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    text-decoration-color: black
+   
+}
+
+
+.my-nav li :active,
+.my-nav li :hover{
+    border-bottom: 2px solid #e67e22;
+}
+
+/*-----------------------
+------LOGO---------------*/
+.logo-img{
+    margin-top:20px;
+    display: inline-block;
+    
+}
+
+/*----------------------------
+------HEADER BUTTONS----------*/
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 300px;
+    margin-left: 5px;
+}
+
+
+.btn-full{
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid #3b3bb5; 
+    background-color: #141472; 
+    font-weight: 300;
+    
+}
+
+.btn-full:hover,
+.btn-full:active{
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid #3b3bb5; 
+    background-color: blue; 
+    font-weight: 300;
+    
+}
+
+h3{
+    display: block;
+    font-size: 40px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*---------------------------------------
+------------FIRST SECTION-----------------------*/
+.first-section {
+    background-image: url(images/wallpaperflare.com_wallpaper.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    background-attachment: fixed;
+}
+h3{
+    
+    margin-top: 60px;
+    margin-bottom: 50px;
+    
+}
+
+
+.first-section p{
+    box-sizing: border-box;
+    font-size: 100%;
+    line-height: 30px;
+   letter-spacing: 3px;
+       
+}
+
+h4{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+
+
+.first-section a{
+    text-decoration: none;
+}
